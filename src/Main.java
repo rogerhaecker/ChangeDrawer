@@ -8,6 +8,7 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.print("Hello and welcome!");
         Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();
         String input = sc.nextLine();
         for (int i = 1; i <= 5; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
